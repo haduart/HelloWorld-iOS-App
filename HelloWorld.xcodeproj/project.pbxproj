@@ -21,6 +21,7 @@
 		8B7C304F18A8FC1D0058EBA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7C303118A8FC1D0058EBA9 /* UIKit.framework */; };
 		8B7C305718A8FC1D0058EBA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B7C305518A8FC1D0058EBA9 /* InfoPlist.strings */; };
 		8B7C305918A8FC1D0058EBA9 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C305818A8FC1D0058EBA9 /* HelloWorldTests.m */; };
+		8BC6A96F18A90EF700F1FC24 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6A96E18A90EF700F1FC24 /* HelloWorldViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8B7C305418A8FC1D0058EBA9 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		8B7C305618A8FC1D0058EBA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B7C305818A8FC1D0058EBA9 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		8BC6A96E18A90EF700F1FC24 /* HelloWorldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		8B7C303318A8FC1D0058EBA9 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				8BC6A96E18A90EF700F1FC24 /* HelloWorldViewController.xib */,
 				8B7C303C18A8FC1D0058EBA9 /* HelloWorldAppDelegate.h */,
 				8B7C303D18A8FC1D0058EBA9 /* HelloWorldAppDelegate.m */,
 				8B7C303F18A8FC1D0058EBA9 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC6A96F18A90EF700F1FC24 /* HelloWorldViewController.xib in Resources */,
 				8B7C304618A8FC1D0058EBA9 /* Images.xcassets in Resources */,
 				8B7C303818A8FC1D0058EBA9 /* InfoPlist.strings in Resources */,
 				8B7C304118A8FC1D0058EBA9 /* Main.storyboard in Resources */,
@@ -461,6 +465,7 @@
 				8B7C305E18A8FC1D0058EBA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B7C305F18A8FC1D0058EBA9 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				8B7C306118A8FC1D0058EBA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

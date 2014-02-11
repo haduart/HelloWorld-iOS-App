@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(id)sender {
+    NSString *textBoxValue = [_picker text];
+    NSString *alertMessage = [[NSString alloc] initWithFormat:@"Message: %@", textBoxValue];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"My Title" message:alertMessage delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+}
 @end

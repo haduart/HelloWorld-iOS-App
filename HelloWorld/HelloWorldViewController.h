@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HelloWorldViewController : UIViewController
-
+@interface HelloWorldViewController : UIViewController < UITextViewDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *picker;
+- (IBAction)buttonPressed:(id)sender;
 @end
